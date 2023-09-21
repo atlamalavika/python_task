@@ -9,3 +9,6 @@ for i in word:
         new_word=new_word+i
         
 print(new_word)
+
+#2 remove by replace
+print(word.replace(given_char,""))
