@@ -20,4 +20,11 @@ for i in range(num):
     ans=result2(i)
     print(ans)
 
-
+#sum of list
+def sum_list(num_list):
+    if len(num_list)==1:
+        return num_list[0]
+    else:
+        return num_list[0]+sum_list(num_list[1:])
+num=eval(input("enter: "))
+print(sum_list(num))
