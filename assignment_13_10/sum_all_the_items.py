@@ -2,7 +2,7 @@
 def sum_items(x):
     count=0
     for i in x:
-        count+=x[i]
+        count=count+x[i]
     return count
 dict=eval(input("enter: "))
 print(sum_items(dict))

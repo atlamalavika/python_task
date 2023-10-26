@@ -1,4 +1,4 @@
-# check key exist in dictionary 
+# 2.check key exist in dictionary 
 dict={"emply1":"malavika","id":101,"salary":20000,"age":20}
 given_key=(input("enter: "))
 print(given_key)

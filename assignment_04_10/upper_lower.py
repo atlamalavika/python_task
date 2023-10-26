@@ -8,7 +8,6 @@ def count_char(x):
         if i.islower():
             lower+=1
     print("No. of Upper case charaters : " +str(upper))
-    print("No. of Upper case charaters : " +str(lower))
-    
+    print("No. of Upper case charaters : " +str(lower))    
 input_string=input("enter: ")
 count_char(input_string)

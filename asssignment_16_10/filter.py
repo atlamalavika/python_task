@@ -6,16 +6,16 @@ filter_val=filter(positive_num,list_val)
 print(list(filter_val))
 
 # 2
-def even_val(num):
+def funct(num):
     if num%2==0:
         return True
     else:
         return False
-filter_num=eval(input("enter: "))
-filter_val1=filter(even_val,filter_num)
-print(list(filter_val1))
+input_val=eval(input("enter: "))
+result=filter(funct,input_val)
+print(list(result))
 
-#3
+#3 return vowels
 def vowel_val(num):
     vowel=["a","e","i","o","u"]
     if num in vowel:

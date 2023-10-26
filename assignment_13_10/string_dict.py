@@ -1,4 +1,4 @@
-#from string wring dict with count of letters
+#5.from string write dict with count of letters
 given_dict="marolix technology"
 result={}
 for i in given_dict:
