@@ -10,6 +10,7 @@ class Employee:
         print(self.work_type)
         print(self.name) #instance ACCESS 1
         print(Employee.surname) # STATIC access 1
+
     def method_1(self,domain):
         self.domain=domain #instance variable 2 inside instance method
         Employee.height="5.6" # declare static variable 3
@@ -17,6 +18,7 @@ class Employee:
         print(self.id)#instance ACCESS 2
         print(self.city)
         print(Employee.height) # STATIC access 2
+      
         
     @classmethod
     def method_2(cls):
@@ -24,6 +26,7 @@ class Employee:
         cls.blood_group="O +ve"
         print(Employee.salary)# STATIC access 2.1
         print(cls.blood_group)#STATIC access 2.3
+        
     @staticmethod
     def method_3():
         Employee.experience="2 years" # declare static variable 5
@@ -32,9 +35,7 @@ class Employee:
     def local_method(self):
         greeting="Welcome" #Local Variable
         print(greeting)    #Local Variable ACCESS
-
-
-
+        
 Employee.work_type="Work from home"
 obj_ref=Employee("Malavika","MT-02000")
 Employee.city="hyderabad"
