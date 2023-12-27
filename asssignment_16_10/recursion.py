@@ -28,7 +28,7 @@ print(r1)
 #     ans=result2(i)
 #     print(ans)
 
-# # # 3 sum of list:
+# 3 sum of list:
 # def sum_list(num_list):
 #     if len(num_list)==1:
 #         return num_list[0]

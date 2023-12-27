@@ -44,14 +44,20 @@
 # (a.update(c))
 # print(a)
 
-d1={"a":100,"b":200,"c":300}
-d2={"a":300,"b":200,"d":400}
+# d1={"a":100,"b":200,"c":300}
+# d2={"a":300,"b":200,"d":400}
 
-for i,j in d2.items():
-    if i in d1:
-        d1[i]=d1[i]+j
-    else:
-        d1[i]=j
-print(d1)
+# for i,j in d2.items():
+#     if i in d1:
+#         d1[i]=d1[i]+j
+#     else:
+#         d1[i]=j
+# print(d1)
 
 
+a=[1,2,3,4,5]
+sum1=5
+for i in range(len(a)):
+    for j in range(i+1,len(a)):
+        if a[i]+a[j]==sum1:
+            print((a[i],a[j]))
